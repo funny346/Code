@@ -2,7 +2,7 @@ import random
 import string
 
 
-chars = string.digits + string.ascii_letters + string.printable + string.whitespace
+chars = string.printable
 chars = list(chars)
 key = chars.copy()
 random.shuffle(key)
